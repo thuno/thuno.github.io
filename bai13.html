@@ -57,8 +57,20 @@
                 <td>Ghi chú thêm</td>
                 <td><textarea name="ghi chú" id="note" cols="40" rows="10"></textarea></td>
             </tr>
-            <tr></tr>
-            <tr></tr>
+            <tr>
+                <td colspan="1" align="center">
+                    <input type="submit" id="sub" value="Đồng ý">
+                </td>
+            </tr>
+            <tr>
+                <dt>
+                    <script>
+                        function myFunction() {
+                          document.getElementById("sub").innerHTML = "Bạn đã đk thành công";
+                        }
+                        </script>
+                </dt>
+            </tr>
         </table>
     </form>
 </body>
