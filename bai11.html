@@ -8,7 +8,7 @@
 <body>
     <h1 style="text-align: center;">Đăng nhập</h1>
     <form action="Đăng nhập">
-        <table style="background-color: royalblue;">
+        <table style="background-color: royalblue;" align="center">
             <tr>
                 <td for="mangdung">Mã người dùng:</td>
                 <td><input type="text" id="mangdung"></td>
@@ -18,14 +18,14 @@
                 <td><input type="password" id="mk"></td>
             </tr>
             <tr align ="center">
-                <td colspan="1"><input type="button" value="Đồng ý" onclick="myFunction"></td>
+                <td colspan="2"><button onclick="click">Đồng ý</button></td>
             </tr>
             <tr>
-                <td colspan="1"><div id="mangdung"><script>
-                    function myFunction() {
-                        document.getElementById("id").innerHTML = document.getElementById("mangdung").value
+                <td colspan="2" id="mangdung2"><script type="text/javascript">
+                    function click() {
+                        document.getElementById("mangdung2").innerHTML = document.getElementById("mangdung").value
                     }
-                    </script></div></td>
+                    </script></td>
             </tr>
         </table>
     </form>
